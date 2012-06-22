@@ -119,7 +119,7 @@
 		column-gap: 10px; */ 
 		margin-top: 70px; }
 		
-	.name {
+	.name, .note {
 		font-size: 0.75em; } /*12px*/
 		
 	#photo_gallery ul {
@@ -135,8 +135,53 @@
 	li img {
 		width: 21.666667%; } /*208px*/
 		
+/* Registration *****************************************/
+	
+	#register { 
+		background-color: rgb(110,225,247); }
+	
+	h3 { 
+		font: 1.75em/1.5 'Rock Salt', cursive;
+		text-align: center; }
+	
+	h4 {
+		font: 1.25em/1.5 'Rock Salt', cursive;	
+		margin-left: 2.083333%;
+		margin-bottom: 5px; } 
+		
+	table { 
+		background-color: rgba(110,225,247,0.25);
+		border-collapse: collapse;
+		border: 1px solid #444;
+		text-align: center;
+		margin-left: 6.25%; /*60px*/
+		}
+	
+	td, th {
+		border: 1px solid #444;
+		padding: 1em; }
+		
+	#you, #nanny {
+		background-color: rgb(110,225,247);
+		margin-right: 62.5%; 
+		text-align: right; }
+	
+	.input {
+		margin: 5px; }
+		
+	.note {
+		margin-left: 6.25%; /*60px*/ 
+		clear: both; }
+	
+	.button {
+		margin-left: 7%; 
+		margin-bottom: 20px;
+		padding: 1em; 
+		  }
+		
+		
 /* Footer ***********************************************/
-
+		
 	footer { 
 		clear:both;
 		font-size: 0.875em; /*14px*/
@@ -185,7 +230,11 @@
 			display: inline;
 			list-style-type: none;
 			width:100%; 
-			margin-top: 40px; } }
+			margin-top: 40px; } 
+			
+			table { margin-left: 2.083333%; } 
+			
+			#you, #nanny { margin-right: 40%; } }
 	
 	
 		/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -210,4 +259,11 @@
 			#photostack img, 
 			#photo_gallery ul, 
 			#photo_gallery2 ul { 
-			display: none; } }
+			display: none; } 
+			
+			table { margin-left: 2.083333%; }
+			
+			td, th { padding: 0.25em;
+			margin-left: 0; }
+			
+			#you, #nanny { margin-right: 30%; } }

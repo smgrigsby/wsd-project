@@ -21,7 +21,7 @@
 	
 	<div id="container">
 		<header>
-			<p id="link"><a href="index.html">Not a member? Click here to sign up!</a></p>
+			<p id="link"><a href="#register">Not a member? Click here to sign up!</a></p>
 
 			<h1>NannyNotes</h1>
 		</header>
@@ -42,7 +42,7 @@
 			</ol>
 		</section>
 		
-			<p id="button"><a href="index.html">Sign Up Today!</a></p>
+			<p id="button"><a href="#register">Sign Up Today!</a></p>
 	
 		<section id="photo_gallery2">
 			<ul>
@@ -70,6 +70,121 @@
 				<li><img src="images/bike.jpg" alt="color theme option one" title="mint pink"></li>
 			</ul>
 		</section>
+		
+		<div id="register">
+		
+			<h3>Sign up for your 30 day free trial today!*</h3>
+			<h4>Select a Membership Plan</h2>
+		
+		
+			<table summary="Monthly Membership Fees">
+			<tr>
+				<th>Basic Plan</th>
+				<th>Premium Plan</th>
+				<th>Premium Plus</th>
+				</tr>
+			<tr>
+				<td>6 month archive</td>
+				<td>12 month archive</td>
+				<td>24 month archive</td>
+				</tr>
+			<tr>
+				<td>2 GB Photo Storage</td>
+				<td>4 GB Photo Storage</td>
+				<td>16 GB Photo Storage</td>
+				</tr>
+			<tr>	
+				<td>Ideal for a Single Child</td>
+				<td>Customizable for Multiple Children</td>
+				<td>Parent to Nanny Messaging</td>
+				</tr>
+			<tr>
+				<td><input type="checkbox" name="select_basic" id="select_basic"/>$8.99/month</td>
+				<td><input type="checkbox" name="select_premium" id="select_premium"/>$12.99/month</td>
+				<td><input type="checkbox" name="select_plus" id="select_plus"/>$19.99/month</td>
+				</tr>
+			</table>
+		
+				<p class="note">*After the 30 day trail ends, the monthly membership fee will be automatically billed to the credit card on file.</p>
+			
+			<form method ="get" action="mailto:example@example.com">
+			
+				<h4>Tell Us About Yourself</h2>
+					<section id="you">
+					<div>
+						<label for="name_first">First Name</label>
+						<input type="text" name="name_first" class="input"/>
+						</div> 
+						
+					<div>
+						<label for="name_last">Last Name</label>
+						<input type="text" name="name_last" class="input"/>
+						</div>
+						
+					<div>
+						<label for="relationship">Relationship to Child(ren)</label>
+						</div><div>
+						
+					<select name="relationship" class="input">
+						<option>Please Select One</option>
+						<option>Mother</option>
+						<option>Father</option>
+						<option>Grandparent</option>
+						<option>Legal Guardian</option>
+						</select>
+						</div>
+						
+					<div>
+						<label for="email">Email</label>
+						<input type="text" name="email" class="input"/>
+						</div> 
+						
+					<div>
+						<label for="password">Password</label>
+						<input type="text" name="password" class="input"/>
+						</div> 
+						
+					<div>
+						<label for="password_confirm">Confirm Password</label>
+						<input type="text" name="password_confirm" class="input"/>
+						</div> 
+					</section>
+	
+			
+				<h4>Nanny Information</h2>
+					<section id="nanny">
+					<div>
+						<label for="name_first2">First Name</label>
+						<input type="text" name="name_first2" class="input"/>
+						</div> 
+						
+					<div>
+						<label for="name_last2">Last Name</label>
+						<input type="text" name="name_last2" class="input"/>
+						</div> 
+			
+					<div>
+						<label for="email2">Email Address</label>
+						<input type="text" name="email2" class="input"/>
+						</div>
+						
+					<div>
+						<label for="confirm_email2">Confirm Email 	Address</label>
+						<input type="text" name="confirm_email2" class="input"/>
+						</div> 
+					</section>
+			
+			<div class="note">
+			<p><input type="checkbox" name="terms" id="terms"/>
+			I have Read and Agree to the <a href="#">Terms of Service</a>.</p>
+			</div>
+	
+		<div>
+			<button type="submit" name="submit" class="button">Submit</button>
+			</div>
+	
+		</form>
+		</div>
 
 		<footer>
 			<p>copyright 2012 NannyNotes</p>
